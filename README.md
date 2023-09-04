@@ -38,16 +38,19 @@
 ## Instalação
 
 1. Clone este repositório.
+
    ```shell
-git clone https://github.com/carlos-aldrim/TrabalhoDirigido01
+   git clone    https://github.com/carlos-aldrim/TrabalhoDirigido01
    ```
 
 2. Navegue até o diretório da aplicação.
+
   ```shell
   cd TrabalhoDirigido01
   ```
 
 3. Instale as dependências.
+
   ```shell
   npm install
   ```
@@ -59,6 +62,7 @@ git clone https://github.com/carlos-aldrim/TrabalhoDirigido01
   ```
 
 5. Inicie a aplicação.
+
   ```shell
   expo start
   ```
