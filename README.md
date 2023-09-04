@@ -14,7 +14,7 @@
 
 ## Capturas de Tela
 
-![Captura de Tela 01]([assets/Screenshot_20230904-185214_ExpoGo.jpg](https://github.com/carlos-aldrim/TrabalhoDirigido01/blob/main/assets/Screenshot_20230904-185214_Expo%20Go.jpg);
+![Captura de Tela 01](https://github.com/carlos-aldrim/TrabalhoDirigido01/blob/main/assets/Screenshot_20230904-185214_Expo%20Go.jpg);
 
 ## Tecnologias Utilizadas
 
