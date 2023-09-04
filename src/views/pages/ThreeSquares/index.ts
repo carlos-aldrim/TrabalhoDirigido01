@@ -1,0 +1,1 @@
+export { ThreeSquares } from "./ThreeSquares";

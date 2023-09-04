@@ -1,0 +1,78 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 15,
+  },
+  display: {
+    width: 350,
+    flex: 1,
+    backgroundColor: "#616161",
+    borderRadius: 10,
+    padding: 20,
+    alignItems: "flex-end",
+  },
+  text: {
+    fontSize: 30,
+    marginBottom: 20,
+    color: "#FFFFFF",
+  },
+  result: {
+    fontSize: 20,
+    marginBottom: 20,
+    color: "gray",
+  },
+  buttons: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+  },
+  numbers: {
+    width: 270,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    lineHeight: 70,
+  },
+  operator: {
+    width: 80,
+    height: 80,
+    backgroundColor: "#EEAD2D",
+    fontSize: 30,
+    textAlign: "center",
+    margin: 5,
+    borderRadius: 10,
+    lineHeight: 70,
+  },
+  number: {
+    width: 80,
+    height: 80,
+    backgroundColor: "lightgray",
+    fontSize: 30,
+    textAlign: "center",
+    margin: 5,
+    borderRadius: 10,
+    lineHeight: 70,
+  },
+  zero: {
+    width: 170,
+    height: 80,
+    backgroundColor: "lightgray",
+    fontSize: 30,
+    textAlign: "center",
+    margin: 5,
+    borderRadius: 10,
+    lineHeight: 70,
+  },
+  clear: {
+    width: 260,
+    height: 80,
+    backgroundColor: "lightgray",
+    fontSize: 30,
+    textAlign: "center",
+    margin: 5,
+    borderRadius: 10,
+    lineHeight: 70,
+  },
+});
