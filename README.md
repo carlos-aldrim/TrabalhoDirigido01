@@ -41,6 +41,7 @@
    ```shell
    git clone https://github.com/carlos-aldrim/TrabalhoDirigido01
    ```
+
 2. Navegue até o diretório da aplicação.
   ```shell
   cd TrabalhoDirigido01
@@ -62,8 +63,8 @@
   expo start
   ```
 
-- **Após iniciar o projeto, um QR code será exibido no terminal e na página web. Para acessar a aplicação em seu dispositivo móvel, siga estas etapas:**
-1. Certifique-se de que você tem o aplicativo "Expo Go" instalado em seu dispositivo móvel. Você pode baixá-lo na Play Store.
-2. Abra o aplicativo "Expo Go" em seu dispositivo.
-3. Toque na opção "Scan QR Code" ou similar no aplicativo Expo Go.
-4. Use a câmera do seu dispositivo para escanear o QR code exibido na página web ou no terminal.
+6. **Após iniciar o projeto, um QR code será exibido no terminal e na página web. Para acessar a aplicação em seu dispositivo móvel, siga estas etapas:**
+- Certifique-se de que você tem o aplicativo "Expo Go" instalado em seu dispositivo móvel. Você pode baixá-lo na Play Store.
+- Abra o aplicativo "Expo Go" em seu dispositivo.
+- Toque na opção "Scan QR Code" ou similar no aplicativo Expo Go.
+- Use a câmera do seu dispositivo para escanear o QR code exibido na página web ou no terminal.
