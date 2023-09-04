@@ -40,7 +40,7 @@
 1. Clone este repositório.
 
    ```shell
-   git clone    https://github.com/carlos-aldrim/TrabalhoDirigido01
+   git clone https://github.com/carlos-aldrim/TrabalhoDirigido01
    ```
 
 2. Navegue até o diretório da aplicação.
