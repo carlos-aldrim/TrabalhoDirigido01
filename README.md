@@ -1,8 +1,10 @@
 # Trabalho 01 - DSDM
 
 ## Descrição
-Primeiro trabalho dirigido de Desenvolvimento de Softwarepara Dispositivos Móveis.
-Aluno: Carlos Aldrim Freire Melo Filho
+
+- Primeiro trabalho dirigido de Desenvolvimento de Softwarepara Dispositivos Móveis.
+
+**Aluno:** Carlos Aldrim Freire Melo Filho
 
 ## Aplicações
 
@@ -35,24 +37,27 @@ Aluno: Carlos Aldrim Freire Melo Filho
 
 ## Instalação
 
+1. Clone este repositório.
    ```shell
    git clone https://github.com/carlos-aldrim/TrabalhoDirigido01
    ```
-
+2. Navegue até o diretório da aplicação.
   ```shell
   cd TrabalhoDirigido01
   ```
 
+3. Instale as dependências.
   ```shell
   npm install
   ```
 
-  Nota: Se você ainda não tem o Expo instalado globalmente, você pode instalá-lo usando o seguinte comando:
+  4. Nota: Se você ainda não tem o Expo instalado globalmente, você pode instalá-lo usando o seguinte comando:
 
   ```shell
   npm install -g expo-cli
   ```
 
+5. Inicie a aplicação.
   ```shell
   expo start
   ```
