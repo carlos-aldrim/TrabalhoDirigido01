@@ -1,8 +1,8 @@
 # Trabalho 01 - DSDM
 
 ## Descrição
-
-
+Primeiro trabalho dirigido de Desenvolvimento de Softwarepara Dispositivos Móveis.
+Aluno: Carlos Aldrim Freire Melo Filho
 
 ## Aplicações
 
@@ -15,6 +15,10 @@
 ## Capturas de Tela
 
 ![Captura de Tela 01](https://github.com/carlos-aldrim/TrabalhoDirigido01/blob/main/assets/Screenshot_20230904-185214_Expo%20Go.jpg);
+![Captura de Tela 02](https://github.com/carlos-aldrim/TrabalhoDirigido01/blob/main/assets/Screenshot_20230904-185222_Expo%20Go.jpg);
+![Captura de Tela 03](https://github.com/carlos-aldrim/TrabalhoDirigido01/blob/main/assets/Screenshot_20230904-185230_Expo%20Go.jpg);
+![Captura de Tela 04](https://github.com/carlos-aldrim/TrabalhoDirigido01/blob/main/assets/Screenshot_20230904-185244_Expo%20Go.jpg);
+![Captura de Tela 05](https://github.com/carlos-aldrim/TrabalhoDirigido01/blob/main/assets/Screenshot_20230904-185335_Expo%20Go.jpg);
 
 ## Tecnologias Utilizadas
 
