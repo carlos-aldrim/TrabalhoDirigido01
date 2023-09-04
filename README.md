@@ -14,7 +14,7 @@
 
 ## Capturas de Tela
 
-![Captura de Tela 01](assets/Screenshot_20230904-185214_Expo Go.jpg);
+![Captura de Tela 01](assets/Screenshot_20230904-185214_ExpoGo.jpg);
 
 ## Tecnologias Utilizadas
 
