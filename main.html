@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Tarefas</title>
+    <style>
+      html, body {
+        font-family: Arial, sans-serif;
+      }
+
+      #container {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      #title {
+        font-size: 32px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+      }
+
+      #taskInput {
+        height: 40px;
+        background-color: #C4C4C4;
+        border-width: 0;
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 15px;
+        display: flex;
+        width: -webkit-fill-available;
+        font-size: 24px;
+      }
+
+      #taskList {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+      }
+
+      .taskItem {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 5px;
+        font-size: 20px;
+      }
+
+      .removeButton {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      #button {
+        align-items: center;
+        padding: 15px;
+        border: none;
+        font-size: 32px;
+        background-color: transparent;
+        color: #00ABF0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <span id="title">Lista de Tarefas</span>
+      <input type="text" id="taskInput" placeholder="Adicionar tarefa" />
+      <button id="button" onclick="addTask()" >Add</button>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script>
+      const taskList = document.getElementById("taskList");
+      const taskInput = document.getElementById("taskInput");
+
+      function addTask() {
+        const taskText = taskInput.value.trim();
+        if (taskText !== "") {
+          const taskId = Date.now();
+          const taskItem = document.createElement("li");
+          taskItem.classList.add("taskItem");
+          taskItem.dataset.taskId = taskId.toString();
+          taskItem.innerHTML = `
+          ${taskText}
+          <button class="removeButton" onclick="removeTask(${taskId})">Remover</button>
+        `;
+          taskList.appendChild(taskItem);
+          taskInput.value = "";
+        }
+      }
+
+      function removeTask(taskId) {
+        const taskItem = document.querySelector(`[data-task-id="${taskId}"]`);
+        if (taskItem) {
+          taskItem.remove();
+        }
+      }
+    </script>
+  </body>
+</html>

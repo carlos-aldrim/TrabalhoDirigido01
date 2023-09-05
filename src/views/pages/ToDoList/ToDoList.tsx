@@ -7,6 +7,7 @@ import {
   FlatList,
 } from "react-native";
 import { styles } from "./ToDoList.styles";
+import WebView from "react-native-webview";
 
 interface Task {
   id: number;
@@ -33,31 +34,7 @@ export const ToDoList = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Lista de Tarefas</Text>
-      <TextInput
-        style={styles.input}
-        placeholder="Adicionar tarefa"
-        value={newTask}
-        onChangeText={(text) => setNewTask(text)}
-      />
-      <TouchableOpacity style={styles.button} onPress={handleAddTask}>
-        <Text style={styles.buttonText}>Add</Text>
-      </TouchableOpacity>
-      <FlatList
-        data={tasks}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
-          <View style={styles.taskContainer}>
-            <Text>{item.text}</Text>
-            <TouchableOpacity
-              onPress={() => handleRemoveTask(item.id)}
-              style={styles.removeButton}
-            >
-              <Text style={styles.removeButtonText}>Remover</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-      />
+      <WebView source={require('../../../../main.html')} />
     </View>
   );
 };
